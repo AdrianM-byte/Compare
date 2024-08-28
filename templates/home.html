@@ -22,21 +22,21 @@
     
     </h1>
     <div class ="file-upload">
-      <p> Please upload the 1st file</p>
-      <form action="/action_page.php">
-      <input type="file" id="myFile" name="filename">
-      <input type="submit">
-      </form>
-      <span class="file-upload__label"No files selected</span>  
+    <p> Please upload the 1st file</p>
+    <form method="post" enctype="multipart/form-data">
+      <label for="file">File</label>
+      <input id="file" name="file" type="file" />
+      <button>Upload</button>
+    </form>
     </div>
 
     <div class ="file-upload">
-      <p> Please upload the 2nd file</p>
-      <form action="/action_page.php">
-      <input type="file" id="myFile" name="filename">
-      <input type="submit">
-      </form>
-      <span class="file-upload__label"No files selected</span>  
+    <p> Please upload the 2nd file</p>
+    <form method="post" enctype="multipart/form-data">
+      <label for="file">File</label>
+      <input id="file" name="file" type="file" />
+      <button>Upload</button>
+    </form>
     </div>
     <button> Compare </button>
   </body>
